@@ -19,8 +19,6 @@ module RedirectUri
     end
 
     def endpoints
-      return unless endpoints_from_http_request.any?
-
       @endpoints ||= endpoints_from_http_request.map { |endpoint| Absolutely.to_absolute_uri(base: @response.uri.to_s, relative: endpoint) }.uniq.sort
     rescue Absolutely::InvalidURIError => error
       raise InvalidURIError, error
@@ -33,6 +31,7 @@ module RedirectUri
 
       doc = Nokogiri::HTML(@response.body.to_s)
 
+      # Search response body for all `link` elements with valid `rel` attribute
       link_elements = doc.css('link[rel~="redirect_uri"][href]')
 
       link_elements.map { |link_element| link_element['href'] }

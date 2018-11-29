@@ -14,8 +14,8 @@ describe RedirectUri, '.discover' do
       stub_request(:get, url).to_return(headers: http_response_headers, body: read_fixture(url))
     end
 
-    it 'returns nil' do
-      expect(described_class.discover(url)).to be_nil
+    it 'returns an empty array' do
+      expect(described_class.discover(url)).to be_empty
     end
   end
 
