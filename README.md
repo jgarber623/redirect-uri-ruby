@@ -3,6 +3,7 @@
 **A Ruby gem for discovering a URL’s registered callback URLs for use with [Micropub](https://indieweb.org/Micropub) and [IndieAuth](https://indieweb.org/IndieAuth) clients.**
 
 [![Build](https://img.shields.io/travis/com/jgarber623/redirect-uri-ruby/master.svg?style=for-the-badge)](https://travis-ci.com/jgarber623/redirect-uri-ruby)
+[![Dependencies](https://img.shields.io/depfu/jgarber623/redirect-uri-ruby.svg?style=for-the-badge)](https://depfu.com/github/jgarber623/redirect-uri-ruby)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/redirect-uri-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/redirect-uri-ruby)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/redirect-uri-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/redirect-uri-ruby/code)
 
