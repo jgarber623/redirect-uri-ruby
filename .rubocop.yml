@@ -9,6 +9,10 @@ Metrics/BlockLength:
 Metrics/LineLength:
   Enabled: false
 
+Naming/FileName:
+  Exclude:
+    - lib/redirect-uri.rb
+
 Naming/RescuedExceptionsVariableName:
   PreferredName: error
 
