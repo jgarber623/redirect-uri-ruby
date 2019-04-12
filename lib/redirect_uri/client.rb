@@ -15,7 +15,7 @@ module RedirectUri
     end
 
     def response
-      @response ||= Response.new(@uri).response
+      @response ||= Request.new(@uri).response
     end
   end
 end

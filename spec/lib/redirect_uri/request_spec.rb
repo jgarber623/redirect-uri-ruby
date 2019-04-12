@@ -1,4 +1,4 @@
-describe RedirectUri::Response do
+describe RedirectUri::Request do
   context 'when not given an Addressable::URI' do
     let(:message) { 'uri must be an Addressable::URI (given NilClass)' }
 

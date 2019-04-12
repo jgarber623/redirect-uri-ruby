@@ -1,5 +1,5 @@
 module RedirectUri
-  class Response
+  class Request
     HTTP_HEADERS_OPTS = {
       accept: '*/*',
       user_agent: 'Redirect URI Discovery (https://rubygems.org/gems/redirect-uri)'
