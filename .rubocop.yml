@@ -4,6 +4,7 @@ require:
 
 Metrics/BlockLength:
   Exclude:
+    - redirect-uri.gemspec
     - spec/**/*.rb
 
 Metrics/LineLength:

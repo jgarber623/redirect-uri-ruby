@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
-  spec.post_install_message = <<EOM
+  spec.post_install_message = <<NOTICE
 
   +--------------------------------------------------+
   |                                                  |
@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   |                                                  |
   +--------------------------------------------------+
 
-EOM
+NOTICE
 
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.8'
