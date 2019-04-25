@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 / 2019-04-24
+
+- Add deprecation notice.
+
 ## 0.2.0 / 2019-04-11
 
 - Rename `lib/redirect-uri.rb` to support automatic loading via Bundler, etc. ([e850788](https://github.com/jgarber623/redirect-uri-ruby/commit/e850788)).
